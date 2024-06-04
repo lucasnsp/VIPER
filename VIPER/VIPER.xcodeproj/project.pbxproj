@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		46B256D62C0F3E7F00E05D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B256D52C0F3E7F00E05D6D /* AppDelegate.swift */; };
 		46B256D82C0F3E7F00E05D6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B256D72C0F3E7F00E05D6D /* SceneDelegate.swift */; };
-		46B256DA2C0F3E7F00E05D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B256D92C0F3E7F00E05D6D /* ViewController.swift */; };
 		46B256DF2C0F3E8E00E05D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B256DE2C0F3E8E00E05D6D /* Assets.xcassets */; };
 		46B256E22C0F3E8E00E05D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B256E02C0F3E8E00E05D6D /* LaunchScreen.storyboard */; };
 		46B256EB2C0F3EC800E05D6D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B256EA2C0F3EC800E05D6D /* View.swift */; };
@@ -23,7 +22,6 @@
 		46B256D22C0F3E7F00E05D6D /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B256D52C0F3E7F00E05D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46B256D72C0F3E7F00E05D6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46B256D92C0F3E7F00E05D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46B256DE2C0F3E8E00E05D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B256E12C0F3E8E00E05D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B256E32C0F3E8E00E05D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				46B256E92C0F3E9D00E05D6D /* VIPER */,
 				46B256D52C0F3E7F00E05D6D /* AppDelegate.swift */,
 				46B256D72C0F3E7F00E05D6D /* SceneDelegate.swift */,
-				46B256D92C0F3E7F00E05D6D /* ViewController.swift */,
 				46B256DE2C0F3E8E00E05D6D /* Assets.xcassets */,
 				46B256E02C0F3E8E00E05D6D /* LaunchScreen.storyboard */,
 				46B256E32C0F3E8E00E05D6D /* Info.plist */,
@@ -161,7 +158,6 @@
 				46B256EF2C0F3EF000E05D6D /* Presenter.swift in Sources */,
 				46B256EB2C0F3EC800E05D6D /* View.swift in Sources */,
 				46B256F12C0F3EFE00E05D6D /* Entity.swift in Sources */,
-				46B256DA2C0F3E7F00E05D6D /* ViewController.swift in Sources */,
 				46B256ED2C0F3EDE00E05D6D /* Interactor.swift in Sources */,
 				46B256D62C0F3E7F00E05D6D /* AppDelegate.swift in Sources */,
 				46B256D82C0F3E7F00E05D6D /* SceneDelegate.swift in Sources */,

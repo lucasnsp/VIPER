@@ -21,19 +21,25 @@ protocol AnyView {
 
 class UserViewController: UIViewController, AnyView, UITableViewDelegate, UITableViewDataSource {
     var presenter: AnyPresenter?
-
+    
     private let tableView: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         table.isHidden = true
         return table
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemBlue
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
+    }
+
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        tableView.frame = view.bounds
     }
 
     func update(with user: [User]) {
