@@ -36,6 +36,8 @@ class UserInteractor: AnyInteractor {
                 self?.presenter?.interactorDidFetchUsers(with: .failure(error))
             }
         }
+
+        task.resume()
     }
 
 }

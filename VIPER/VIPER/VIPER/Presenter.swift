@@ -25,15 +25,21 @@ protocol AnyPresenter {
 
 class UserPresenter: AnyPresenter {
     var router: AnyRouter?
-    var interactor: AnyInteractor?
-    var view: AnyView?
-
-    init () {
-        interactor?.getUsers()
+    var interactor: AnyInteractor? {
+        didSet {
+            interactor?.getUsers()
+        }
     }
 
-    func interactorDidFetchUsers(with result: Result<[User], Error>) {
+    var view: AnyView?
 
+    func interactorDidFetchUsers(with result: Result<[User], Error>) {
+        switch result {
+        case .success(let users):
+            view?.update(with: users)
+        case .failure:
+            view?.update(with: "Something went wrong")
+        }
     }
     
 
